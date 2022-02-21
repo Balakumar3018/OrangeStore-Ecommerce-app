@@ -1,15 +1,21 @@
 @import url("https://orangeui.netlify.app/orange-ui.css");
+body{
+    background-color: white;
+}
 .search-bar2{
     margin-top: -10px;
 }
 .navigation-bar{
     /* border: none; */
     height: 60px;
-    width: 100%;
+    /* width: 100%; */
 }
 .btn-login{
     height: 30px;
     margin-top: 20px;
+}
+#search-bar{
+    height: 30px;
 }
 .nav-logo-items{
     padding-bottom: 18px;
