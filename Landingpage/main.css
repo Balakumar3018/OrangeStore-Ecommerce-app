@@ -1,0 +1,44 @@
+@import url(https://orangeui.netlify.app/orange-ui.css);
+.search-bar2{
+    margin-top: -10px;
+}
+.navigation-bar{
+    /* border: none; */
+    height: 60px;
+    width: 100%;
+}
+.btn-login{
+    height: 30px;
+    margin-top: 20px;
+}
+.nav-logo-items{
+    padding-bottom: 18px;
+}
+/* main container */
+.main-container{
+    padding: 32px;
+    height: 180px;
+}
+.text-only-card{
+    height: 150px;
+}
+.text-only-card:hover{
+    cursor: pointer;
+}
+.jumpo-card{
+    display: flex;
+    justify-content: center;
+    padding: 8px;
+    display: flex;
+    justify-content: space-evenly;
+}
+.horizontal-card{
+    background-color:white;
+    border: none;
+    padding: 32px;
+}
+.info-card{
+    display: flex;
+    justify-content: space-around;
+    padding: 8px;
+}
