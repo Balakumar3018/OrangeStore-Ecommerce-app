@@ -1,6 +1,6 @@
 @import url("https://orangeui.netlify.app/orange-ui.css");
 body{
-    background-color: white;
+    background-color: var(--background-colorWhite);
 }
 .search-bar2{
     margin-top: -10px;
@@ -28,12 +28,12 @@ body{
 .main-container{
     padding: 32px;
     height: 180px;
-}
-.text-only-card{
-    height: 150px;
+    display: flex;
+    justify-content: space-evenly;
 }
 .text-only-card:hover{
     cursor: pointer;
+    box-shadow: 0px 4px 8px var(--secondary-color);
 }
 .jumpo-card{
     display: flex;
@@ -43,11 +43,17 @@ body{
     justify-content: space-evenly;
 }
 .horizontal-card{
-    background-color:white;
+    background-color:var(--background-colorWhite);
     border: none;
+}
+.horizontal-card:hover{
+    box-shadow: 0px 4px 8px var(--secondary-color);
 }
 .info-card{
     display: flex;
     justify-content: space-around;
     padding: 8px;
+}
+.info-card:hover{
+    box-shadow: 0px 4px 8px var(--secondary-color); 
 }
