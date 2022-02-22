@@ -14,7 +14,6 @@
 }
 .horizontal-cards{
     padding: 32px;
-    /* display: none; */
 }
 .btn-primary-outline{
     background-color: var(--background-colorWhite);
@@ -25,10 +24,8 @@
 .total-price-card{
     display: flex;
     flex-direction: column;
-    /* width: 300px; */
     box-shadow: 0px 1px 4px var(--secodary-color);
     border-radius: 5px;
-    float: right;
     padding: 16px;
 }
 .price-details{
