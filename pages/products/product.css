@@ -1,17 +1,14 @@
 @import url("/main.css");
 @import url("/pages/authpage/auth.css");
-.product-content{
-    display: flex;
-    /* justify-content: space-evenly; */
-}
+
 /* product side bar */
 .product-sidebar{
     border-right: 3px solid var(--primary-color);
     width: 15%;
+    height: 680px;
     display: flex;
     flex-direction: column;
     padding: 0px 56px;
-    position: fixed;
     overflow-y: scroll;
 }
 .filters-container{
@@ -53,15 +50,16 @@
 }
 /* product cards display */
 .product-cards-display{
-    /* display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-    align-content: space-between;
-    align-items: flex-start; */
+    margin-top: -670px;
     width: 70%;
     padding: 16px;
-    /* display: flex; */
-    /* justify-content: space-evenly; */
-    /* flex-wrap: wrap; */
-    float: right;
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    margin-left: auto;
+    overflow-y: scroll;
+    height: 600px;
+}
+.normal-card{
+    padding: 8px;
 }
