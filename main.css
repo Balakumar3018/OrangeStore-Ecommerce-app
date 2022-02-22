@@ -45,7 +45,6 @@ body{
 .horizontal-card{
     background-color:white;
     border: none;
-    padding: 32px;
 }
 .info-card{
     display: flex;

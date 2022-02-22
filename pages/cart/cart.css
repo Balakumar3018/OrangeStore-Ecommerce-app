@@ -1,0 +1,38 @@
+@import url("/main.css");
+@import url("/pages/authpage/auth.css");
+.cart-content{
+    display: flex;
+    justify-content: space-evenly;
+}
+.cart-count{
+    background-color: var(--background-colorWhite);
+    border: none;
+    font-size: 24px;
+}
+.cart-items-text{
+    text-align: center;
+}
+.horizontal-cards{
+    padding: 32px;
+    /* display: none; */
+}
+.btn-primary-outline{
+    background-color: var(--background-colorWhite);
+}
+.btn-secondary-outline{
+    background-color: var(--background-colorWhite);
+}
+.total-price-card{
+    display: flex;
+    flex-direction: column;
+    /* width: 300px; */
+    box-shadow: 0px 1px 4px var(--secodary-color);
+    border-radius: 5px;
+    float: right;
+    padding: 16px;
+}
+.price-details{
+    display: flex;
+    justify-content: space-between;
+    border-bottom: 1px solid var(--secodary-color);;
+}
