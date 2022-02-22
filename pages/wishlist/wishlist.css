@@ -1,0 +1,14 @@
+@import url("/main.css");
+@import url("/pages/authpage/auth.css");
+.wishlist-content{
+    padding: 32px;
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+}
+.wishlist-text{
+    text-align: center;
+}
+.card-normal{
+    padding: 16px;
+}
